@@ -5,9 +5,7 @@ def recursive(n : int) -> None:
         recursive(n - 1)
         print(f"Day {n}")
 
-def ft_count_harvest_recursive():
+def ft_count_harvest_recursive() -> None:
     number = int(input("Days until harvest: "))
     recursive(number)
     print("Harvest time!")
-
-ft_count_harvest_recursive()
